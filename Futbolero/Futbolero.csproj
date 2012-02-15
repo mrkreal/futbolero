@@ -130,6 +130,54 @@
     <Content Include="Content\themes\base\jquery.ui.theme.css" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="kickstart\blank.html" />
+    <Content Include="kickstart\css\chosen.css" />
+    <Content Include="kickstart\css\fonts\base\icomoon-webfont.svg" />
+    <Content Include="kickstart\css\fonts\social\icomoonsocial-webfont.svg" />
+    <Content Include="kickstart\css\img\breadcrumbs-bg.gif" />
+    <Content Include="kickstart\css\img\chosen-sprite.png" />
+    <Content Include="kickstart\css\img\fancybox\blank.gif" />
+    <Content Include="kickstart\css\img\fancybox\fancybox-x.png" />
+    <Content Include="kickstart\css\img\fancybox\fancybox-y.png" />
+    <Content Include="kickstart\css\img\fancybox\fancybox.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_close.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_loading.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_nav_left.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_nav_right.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_e.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_n.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_ne.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_nw.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_s.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_se.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_sw.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_shadow_w.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_title_left.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_title_main.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_title_over.png" />
+    <Content Include="kickstart\css\img\fancybox\fancy_title_right.png" />
+    <Content Include="kickstart\css\img\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="kickstart\css\img\fancybox\jquery.fancybox-1.3.4.js" />
+    <Content Include="kickstart\css\img\fancybox\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="kickstart\css\img\fancybox\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="kickstart\css\img\grid.png" />
+    <Content Include="kickstart\css\img\icon-arrow-right.png" />
+    <Content Include="kickstart\css\img\icon-check.png" />
+    <Content Include="kickstart\css\jquery.fancybox-1.3.4.css" />
+    <Content Include="kickstart\css\kickstart-buttons.css" />
+    <Content Include="kickstart\css\kickstart-forms.css" />
+    <Content Include="kickstart\css\kickstart-grid.css" />
+    <Content Include="kickstart\css\kickstart-icons.css" />
+    <Content Include="kickstart\css\kickstart-menus.css" />
+    <Content Include="kickstart\css\kickstart.css" />
+    <Content Include="kickstart\css\prettify.css" />
+    <Content Include="kickstart\css\tiptip.css" />
+    <Content Include="kickstart\elements.html" />
+    <Content Include="kickstart\example.html" />
+    <Content Include="kickstart\js\kickstart.js" />
+    <Content Include="kickstart\js\prettify.js" />
+    <Content Include="kickstart\license.txt" />
+    <Content Include="kickstart\style.css" />
     <Content Include="Scripts\jquery-1.6.2-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.2.js" />
     <Content Include="Scripts\jquery-1.6.2.min.js" />
@@ -145,6 +193,7 @@
     <Content Include="Scripts\knockout-1.3.0beta.debug.js" />
     <Content Include="Scripts\knockout-1.3.0beta.js" />
     <Content Include="Scripts\modernizr-2.0.6-development-only.js" />
+    <Content Include="style\style.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -166,6 +215,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="kickstart\css\fonts\base\icomoon-webfont.eot" />
+    <None Include="kickstart\css\fonts\base\icomoon-webfont.ttf" />
+    <None Include="kickstart\css\fonts\base\icomoon-webfont.woff" />
+    <None Include="kickstart\css\fonts\social\icomoonsocial-webfont.eot" />
+    <None Include="kickstart\css\fonts\social\icomoonsocial-webfont.ttf" />
+    <None Include="kickstart\css\fonts\social\icomoonsocial-webfont.woff" />
+    <None Include="kickstart\README" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
